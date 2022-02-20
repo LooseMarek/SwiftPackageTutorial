@@ -44,6 +44,7 @@
 		9D032D6427C260F900B7043D /* SwiftPackageTutorialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftPackageTutorialUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D032D6827C260F900B7043D /* SwiftPackageTutorialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftPackageTutorialUITests.swift; sourceTree = "<group>"; };
 		9D032D6A27C260F900B7043D /* SwiftPackageTutorialUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftPackageTutorialUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9D1618FE27C267BB00915AC2 /* MyFirstSwiftPackage */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = MyFirstSwiftPackage; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +75,7 @@
 		9D032D4127C260F800B7043D = {
 			isa = PBXGroup;
 			children = (
+				9D1618FD27C2649500915AC2 /* Modules */,
 				9D032D4C27C260F800B7043D /* SwiftPackageTutorial */,
 				9D032D5D27C260F900B7043D /* SwiftPackageTutorialTests */,
 				9D032D6727C260F900B7043D /* SwiftPackageTutorialUITests */,
@@ -125,6 +127,14 @@
 				9D032D6A27C260F900B7043D /* SwiftPackageTutorialUITestsLaunchTests.swift */,
 			);
 			path = SwiftPackageTutorialUITests;
+			sourceTree = "<group>";
+		};
+		9D1618FD27C2649500915AC2 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				9D1618FE27C267BB00915AC2 /* MyFirstSwiftPackage */,
+			);
+			path = Modules;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
