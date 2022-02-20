@@ -14,6 +14,7 @@
 		9D032D5F27C260F900B7043D /* SwiftPackageTutorialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D032D5E27C260F900B7043D /* SwiftPackageTutorialTests.swift */; };
 		9D032D6927C260F900B7043D /* SwiftPackageTutorialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D032D6827C260F900B7043D /* SwiftPackageTutorialUITests.swift */; };
 		9D032D6B27C260F900B7043D /* SwiftPackageTutorialUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D032D6A27C260F900B7043D /* SwiftPackageTutorialUITestsLaunchTests.swift */; };
+		9D16190727C295D400915AC2 /* MyFirstSwiftPackage in Frameworks */ = {isa = PBXBuildFile; productRef = 9D16190627C295D400915AC2 /* MyFirstSwiftPackage */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D16190727C295D400915AC2 /* MyFirstSwiftPackage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,6 +154,7 @@
 			);
 			name = SwiftPackageTutorial;
 			packageProductDependencies = (
+				9D16190627C295D400915AC2 /* MyFirstSwiftPackage */,
 			);
 			productName = SwiftPackageTutorial;
 			productReference = 9D032D4A27C260F800B7043D /* SwiftPackageTutorial.app */;
@@ -225,6 +228,9 @@
 				Base,
 			);
 			mainGroup = 9D032D4127C260F800B7043D;
+			packageReferences = (
+				9D16190527C295D400915AC2 /* XCRemoteSwiftPackageReference "MyFirstSwiftPackage" */,
+			);
 			productRefGroup = 9D032D4B27C260F800B7043D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -595,6 +601,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9D16190527C295D400915AC2 /* XCRemoteSwiftPackageReference "MyFirstSwiftPackage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/LooseMarek/MyFirstSwiftPackage";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9D16190627C295D400915AC2 /* MyFirstSwiftPackage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9D16190527C295D400915AC2 /* XCRemoteSwiftPackageReference "MyFirstSwiftPackage" */;
+			productName = MyFirstSwiftPackage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 9D032D4227C260F800B7043D /* Project object */;
 }

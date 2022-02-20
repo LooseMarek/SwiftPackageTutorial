@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "MyFirstSwiftPackage",
+        "repositoryURL": "https://github.com/LooseMarek/MyFirstSwiftPackage",
+        "state": {
+          "branch": "main",
+          "revision": "5a7ca94b6125beb9ecc9417412366e2a40bd4b4d",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}
