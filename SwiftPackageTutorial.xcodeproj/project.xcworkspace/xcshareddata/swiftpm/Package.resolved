@@ -5,9 +5,9 @@
         "package": "MyFirstSwiftPackage",
         "repositoryURL": "https://github.com/LooseMarek/MyFirstSwiftPackage",
         "state": {
-          "branch": "main",
+          "branch": null,
           "revision": "5a7ca94b6125beb9ecc9417412366e2a40bd4b4d",
-          "version": null
+          "version": "1.0.0"
         }
       }
     ]
