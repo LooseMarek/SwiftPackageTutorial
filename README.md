@@ -2,6 +2,8 @@
 
 Up-to-date with Xcode 13.2.1!
 
+<a href="https://www.buymeacoffee.com/loosemarek" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
+
 ## Intro
 
 The [Swift Package Manager](https://www.swift.org/package-manager/) is a tool for managing the distribution of Swift code. It’s great to break down a [monolithic application](https://en.wikipedia.org/wiki/Monolithic_application#:~:text=In%20software%20engineering%2C%20a%20monolithic,independent%20from%20other%20computing%20applications.) into modules. This process can increase the readability of your project as well as the compilation time of the code, as you don’t need to compile the entire project in order to work on the single Swift Package module.
